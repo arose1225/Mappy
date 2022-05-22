@@ -15,7 +15,7 @@ class Jumper extends Phaser.Physics.Arcade.Sprite {
         this.jumpDelay = 2000;
         this.jumpStartTime = Phaser.Math.Between(500, 2500);    // randomize to offset jumps
 
-        // start jumpin'
+        // start jumping
         this.initJumpTimer(scene);
     }
 
